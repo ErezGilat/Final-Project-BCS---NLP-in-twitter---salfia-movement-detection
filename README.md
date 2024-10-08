@@ -23,10 +23,10 @@ Due to the sensitivity of the dataset, the training data used in this project ca
 
 - **Pre-trained Models**: Pre-trained models are available in the `models/` folder. You can use these models to perform predictions on your data.
 
-- **Inference**: The `inference/predict.py` script can be used to run predictions on new tweet data. For example:
+- **Inference**: The `predict.py` script can be used to run predictions on new tweet data. For example:
 
   ```bash
-  python inference/predict.py --input_file sample_input.txt --model models/final_model.pkl
+  python predict.py --input_file sample_input.txt --model models/final_model.pkl
    ```
   
 ## Results
